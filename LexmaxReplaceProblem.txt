@@ -6,11 +6,14 @@ Problem Statement
     	
 Alice has a string s of lowercase letters. The string is written on a wall.
 
-Alice also has a set of cards. Each card contains a single letter. Alice can take any card and glue it on top of one of the letters of s. She may use any subset of cards in this way, possibly none or all of them. She is not allowed to glue new letters in front of s or after s, she can only replace the existing letters.
+Alice also has a set of cards. Each card contains a single letter. Alice can take any card and glue it on top of one of the letters of s. 
+She may use any subset of cards in this way, possibly none or all of them. She is not allowed to glue new letters in front of s or after s, 
+she can only replace the existing letters.
 
 Alice wants to produce the lexicographically largest possible string.
 
-You are given the String s. You are also given a String t. Each character of t is a letter written on one of the cards. Compute and return the lexicographically largest string Alice can produce on the wall while following the rules described above.
+You are given the String s. You are also given a String t. Each character of t is a letter written on one of the cards. Compute and return 
+the lexicographically largest string Alice can produce on the wall while following the rules described above.
 
  
 Definition
@@ -24,7 +27,8 @@ Method signature:	String get(String s, String t)
     
  
 Notes
--	Given two distinct strings X and Y of the same length, the lexicographically larger one is the one that has a larger character on the first position on which they differ.
+-	Given two distinct strings X and Y of the same length, the lexicographically larger one is the one that has a larger character on the 
+first position on which they differ.
  
 Constraints
 -	s will contain between 1 and 50 characters, inclusive.
@@ -67,4 +71,5 @@ Returns: "trp"
 Returns: "zyyyzyxwwwzwvuuttxwtssvtssxrqxppqrontmmllukrkjvwlr"
 
 
-This problem statement is the exclusive and proprietary property of TopCoder, Inc. Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited. (c)2010, TopCoder, Inc. All rights reserved.
+This problem statement is the exclusive and proprietary property of TopCoder, Inc. Any unauthorized use or reproduction of this information 
+without the prior written consent of TopCoder, Inc. is strictly prohibited. (c)2010, TopCoder, Inc. All rights reserved.
